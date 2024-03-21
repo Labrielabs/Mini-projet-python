@@ -9,10 +9,10 @@ connect_params = {
 
 with mysql.connect(**connect_params) as db:
     with db.cursor() as cursor:
-        cursor.execute("SELECT * FROM ETUDIANTS")
+        sql = "SELECT * FROM ETUDIANTS"
         cursor.execute(sql)
         etudiants = cursor.fetchall()
-        #print(etudiants)
+        print(etudiants)
 
 
 
