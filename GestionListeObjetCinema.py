@@ -1,6 +1,6 @@
 """
 Simulation d'un système de réservation
-"""
+
 
 # Créez une classe SalleCinema pour gérer les réservations dans une salle de cinéma.
 class SalleCinema: 
@@ -70,3 +70,5 @@ salle.nombre_places_disponibles()
 salle.filtrer_reservations_par_personne("Hugo")
 salle.annuler_reservation("Mireille")
 salle.reserver_place_speciale("Jean-Guy", place=5)
+
+"""

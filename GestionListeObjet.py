@@ -1,4 +1,4 @@
-class Personne:
+"""class Personne:
     def __init__(self, nom, age):
         self.nom = nom
         self.age = age
@@ -111,6 +111,8 @@ file_attente.ajouter_personne_en_attente("VIP_Carlito")
 
 # Supprimer en priorité une personne prioritaire
 file_attente.supprimer_personne_de_attente()
+
+"""
 
 
 
